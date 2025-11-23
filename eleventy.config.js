@@ -5,6 +5,7 @@ import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 import pluginFilters from "./_config/filters.js";
+import cloudinary from "./_data/cloudinary.js";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -117,6 +118,12 @@ export default async function(eleventyConfig) {
 
 	eleventyConfig.addShortcode("currentBuildDate", () => {
 		return (new Date()).toISOString();
+	});
+
+	// HAP pose shortcode for Cloudinary images
+	eleventyConfig.addShortcode("hapPose", (poseName, altText, width = 150) => {
+		const url = cloudinary.getHapPoseUrl(poseName, width);
+		return `<img src="${url}" alt="${altText}" width="${width}" height="${width}" loading="lazy" decoding="async">`;
 	});
 
 	// Features to make your build faster (when you need them)
