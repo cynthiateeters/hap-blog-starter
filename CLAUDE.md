@@ -569,24 +569,24 @@ cp ../hybit-intrinsic-layouts/css/prism-hap-theme.css css/prism-hap-theme.css
 
 ### Local testing
 
+**User's preference**: Use `npm start` (development server with live reload) instead of `npm run build` for testing. Monitor the site at `http://localhost:8080` and make changes while the server is running.
+
 ```bash
-# 1. Clean build
-rm -rf _site && npm run build
+# Preferred workflow
+npm start  # Start development server with live reload
+# Monitor at http://localhost:8080
 
-# 2. Start server
-npm run start
-
-# 3. Open browser
-# http://localhost:8080
-
-# 4. Test all pages
+# Test all pages:
 # - Home page (latest posts)
 # - Archive page (all posts)
 # - About page
 # - Individual blog posts
 
-# 5. Mobile test
+# Mobile test:
 # Resize to 375px width, check responsive behavior
+
+# Only build for production when ready to deploy:
+# npm run build
 ```
 
 ### Visual inspection checklist
@@ -623,20 +623,17 @@ npm run start
 ### Before committing
 
 ```bash
-# 1. Test locally
-npm run start
+# 1. Test locally with development server
+npm start
+# Monitor at http://localhost:8080, verify changes look correct
 
-# 2. Clean build
-rm -rf _site && npm run build
-
-# 3. Verify no errors
-# Check terminal output for build errors
-
-# 4. Stage changes
+# 2. Stage changes
 git add .
 
-# 5. Commit
+# 3. Commit
 git commit -m "Brief description of changes"
+
+# Production build happens on Netlify deployment
 ```
 
 ### Commit message guidelines
