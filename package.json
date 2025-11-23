@@ -1,7 +1,7 @@
 {
-	"name": "eleventy-base-blog",
-	"version": "9.0.0",
-	"description": "A starter repository for a blog web site using the Eleventy site generator.",
+	"name": "hap-learning-lab-blog",
+	"version": "1.0.0",
+	"description": "HAP's blog about building interactive learning labs",
 	"type": "module",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
@@ -18,9 +18,8 @@
 		"url": "git://github.com/11ty/eleventy-base-blog.git"
 	},
 	"author": {
-		"name": "Zach Leatherman",
-		"email": "zachleatherman@gmail.com",
-		"url": "https://zachleat.com/"
+		"name": "Cynthia Teeters",
+		"email": "cynthia@cynthiateeters.com"
 	},
 	"license": "MIT",
 	"engines": {

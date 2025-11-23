@@ -1,0 +1,33 @@
+/* Nunito - Primary UI font (variable font) */
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/Nunito/Nunito-VariableFont_wght.woff2') format('woff2-variations');
+  font-weight: 200 1000;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/Nunito/Nunito-Italic-VariableFont_wght.woff2') format('woff2-variations');
+  font-weight: 200 1000;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Source Code Pro - Monospace font for code (variable font) */
+@font-face {
+  font-family: 'Source Code Pro';
+  src: url('/fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  src: url('/fonts/Source_Code_Pro/SourceCodePro-Italic-VariableFont_wght.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-style: italic;
+  font-display: swap;
+}

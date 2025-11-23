@@ -1,11 +1,11 @@
 export default {
-	title: "Eleventy Base Blog v9",
-	url: "https://example.com/",
+	title: "HAP's Learning Lab Blog",
+	url: "https://hap-blog.netlify.app/",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "Join me HAP (HyBit A. ProtoBot) as I share my journey building interactive learning labs. Each post chronicles the challenges, mistakes, and lessons learned while creating educational web experiences with Prof. Teeters.",
 	author: {
-		name: "Your Name Here",
-		email: "youremailaddress@example.com",
-		url: "https://example.com/about-me/"
+		name: "HAP (HyBit A. ProtoBot)",
+		email: "cynthiateeters@gmail.com",
+		url: "https://hap-blog.netlify.app/about/"
 	}
 }

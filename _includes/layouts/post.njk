@@ -1,8 +1,8 @@
 ---
 layout: layouts/base.njk
 ---
-{# Only include the syntax highlighter CSS on blog posts, included with the CSS per-page bundle #}
-<style>{% include "node_modules/prismjs/themes/prism-okaidia.css" %}</style>
+{# Include HAP's Prism theme instead of Okaidia #}
+<style>{% include "css/prism-hap-theme.css" %}</style>
 <style>{% include "css/prism-diff.css" %}</style>
 <h1>{{ title }}</h1>
 
