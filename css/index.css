@@ -148,6 +148,8 @@ a:visited {
 main,
 footer {
 	padding: 1rem;
+	max-width: 90ch;
+	margin-inline: auto;
 }
 
 main :first-child {
@@ -375,7 +377,22 @@ nav[aria-label="Site navigation"] {
 	align-items: center;
 	justify-content: center;
 	text-transform: capitalize;
-	font-style: italic;
+	font-style: normal;
+	font-size: 0.875rem;
+	font-weight: 600;
+	padding: 0.25rem 0.75rem;
+	background-color: var(--warm-orange);
+	color: var(--cream-white);
+	border-radius: 1rem;
+	text-decoration: none;
+	transition: background-color 0.2s ease;
+}
+
+.post-tag:hover,
+.post-tag:focus {
+	background-color: var(--orange-darker);
+	color: var(--cream-white);
+	text-decoration: none;
 }
 
 .postlist-item > .post-tag {
@@ -395,6 +412,44 @@ nav[aria-label="Site navigation"] {
 .post-metadata time {
 	margin-right: 1em;
 }
+
+/* ========================================
+   Blog Post Layout (Header + Content)
+   ======================================== */
+
+/* Post header (title, date, and tags) */
+.post-header {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin-bottom: 2rem;
+}
+
+.post-header h1 {
+	margin: 0;
+}
+
+.post-time {
+	font-size: 0.95rem;
+	color: var(--medium-brown);
+	font-weight: 600;
+}
+
+.post-header .post-metadata {
+	margin-top: 0.5rem;
+}
+
+
+
+/* First picture (hero image) positioned beside header */
+.post-content > picture:first-child {
+	display: block;
+	margin-inline: auto;
+	width: fit-content;
+}
+
+
+
 
 
 /* ========================================

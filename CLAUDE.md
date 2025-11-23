@@ -18,6 +18,39 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Parent project**: `../hybit-intrinsic-layouts` contains HAP design system (CSS, fonts, Prism theme)
 
+## Naming conventions
+
+**CRITICAL**: Repository names vs. site names are different.
+
+**Repository naming**:
+- Repositories use `hybit-*` prefix (e.g., `hybit-svg`, `hybit-colors`, `hybit-fonts`)
+- Found in file system at `../hybit-svg/`, `../hybit-colors/`, etc.
+
+**Site/lab naming when referenced in blog posts**:
+- Use the full site title from the `<h1>` element
+- Format: `Title: Subtitle`
+- Example: `HAP's Learning Lab: Web SVG Images Learning Stations`
+
+**Examples**:
+- ❌ WRONG: "Visit the HyBit SVG Learning Lab"
+- ❌ WRONG: "Visit the hybit-svg lab"
+- ✅ CORRECT: "Visit 'HAP's Learning Lab: Web SVG Images Learning Stations'"
+
+**How to find the correct name**:
+1. Open the lab's `index.html` or `README.md`
+2. Find the `<h1>` element (main title)
+3. Find the subtitle (usually in `<p class="subtitle">` or similar)
+4. Combine as: `Title: Subtitle`
+5. Use single quotes around the full name in blog posts
+
+**Labs reference** (from `reports/labs.txt`):
+- `../hybit-animation` → https://hap-animation.netlify.app/
+- `../hybit-colors` → https://hap-colors.netlify.app/
+- `../hybit-fonts` → https://hap-fonts.netlify.app/
+- `../hybit-intrinsic-layouts` → https://hap-intrinsic-layouts.netlify.app/
+- `../hybit-svg` → https://hap-svgs.netlify.app/
+- `../hybit-images` → https://hap-images.netlify.app/
+
 ## Implementation plan
 
 **Comprehensive documentation available**:
