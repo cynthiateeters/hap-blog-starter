@@ -442,7 +442,7 @@ nav[aria-label="Site navigation"] {
 
 
 /* First picture (hero image) positioned beside header */
-.post-content > picture:first-child {
+.post-content > img:first-child {
 	display: block;
 	margin-inline: auto;
 	width: fit-content;
