@@ -1,39 +1,43 @@
 /* HAP Color Palette - Warm & Scientific */
 :root {
-  /* Base colors */
-  --warm-orange: hsl(32, 76%, 63%);
-  --soft-orange: hsl(35, 83%, 74%);
-  --peach-background: hsl(32, 41%, 90%);
-  --cream-white: hsl(32, 100%, 97%);
-  --dark-brown: hsl(28, 45%, 16%);
-  --medium-brown: hsl(22, 22%, 34%);
-  --light-brown: hsl(24, 18%, 53%);
-  --hybit-gray: hsl(220, 12%, 57%);
-  --teal-accent: hsl(168, 28%, 54%);
-  --success-green: hsl(102, 41%, 56%);
-  --warning-red: hsl(349, 71%, 64%);
+	/* Base colors */
+	--warm-orange: hsl(32, 76%, 37%);
+	--soft-orange: hsl(35, 83%, 74%);
+	--peach-background: hsl(32, 41%, 90%);
+	--cream-white: hsl(32, 100%, 97%);
+	--dark-brown: hsl(28, 45%, 16%);
+	--medium-brown: hsl(22, 22%, 34%);
+	--light-brown: hsl(24, 18%, 53%);
+	--hybit-gray: hsl(220, 12%, 57%);
+	--teal-accent: hsl(168, 28%, 44%);
+	--success-green: hsl(102, 41%, 56%);
+	--warning-red: hsl(349, 71%, 64%);
 
-  /* WCAG AA accessible darker variants for text */
-  --teal-darker: hsl(168, 34%, 35%); /* 4.5:1 contrast ratio */
-  --orange-darker: hsl(32, 61%, 42%); /* 3.1:1 contrast for large bold text */
-  --orange-darkest: hsl(32, 64%, 33%); /* 4.5:1 contrast for normal text */
-  --success-darker: hsl(142, 76%, 36%); /* Darker green for success messages */
+	/* WCAG AA accessible darker variants for text */
+	--teal-darker: hsl(168, 34%, 30%);
+	/* 4.5:1 contrast ratio */
+	--orange-darker: hsl(32, 61%, 42%);
+	/* 3.1:1 contrast for large bold text */
+	--orange-darkest: hsl(32, 64%, 33%);
+	/* 4.5:1 contrast for normal text */
+	--success-darker: hsl(142, 76%, 36%);
+	/* Darker green for success messages */
 
-  /* Light background variants */
-  --success-bg-light: hsl(138, 76%, 97%);
-  --error-bg-light: hsl(0, 86%, 97%);
-  --teal-bg-light: hsl(168, 56%, 89%);
+	/* Light background variants */
+	--success-bg-light: hsl(138, 76%, 97%);
+	--error-bg-light: hsl(0, 86%, 97%);
+	--teal-bg-light: hsl(168, 56%, 89%);
 
-  /* UI neutrals */
-  --ui-border-light: hsl(0, 0%, 87%);
-  --text-muted: hsl(0, 0%, 40%);
-  --teal-hover: hsl(168, 39%, 30%);
+	/* UI neutrals */
+	--ui-border-light: hsl(0, 0%, 87%);
+	--text-muted: hsl(0, 0%, 40%);
+	--teal-hover: hsl(168, 39%, 30%);
 
-  /* Shadows */
-  --shadow-sm: 0 4px 6px hsl(28, 45%, 16% / 0.06);
-  --shadow-md: 0 8px 12px hsl(28, 45%, 16% / 0.08);
+	/* Shadows */
+	--shadow-sm: 0 4px 6px hsl(28, 45%, 16% / 0.06);
+	--shadow-md: 0 8px 12px hsl(28, 45%, 16% / 0.08);
 
-  /* Border radius */
-  --radius: 16px;
-  --radius-lg: 24px;
+	/* Border radius */
+	--radius: 16px;
+	--radius-lg: 24px;
 }

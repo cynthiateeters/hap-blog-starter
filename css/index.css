@@ -430,9 +430,38 @@ nav[aria-label="Site navigation"] {
 }
 
 .post-time {
-	font-size: 0.95rem;
+	font-size: 1rem;
 	color: var(--medium-brown);
 	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+/* HAP-styled date display with CSS custom properties */
+.post-date {
+	font-size: 1.25rem;
+	display: inline-flex;
+	align-items: baseline;
+	gap: 0.35rem;
+	font-family: Nunito, system-ui, -apple-system, sans-serif;
+}
+
+.date-day {
+	font-weight: 700;
+	color: var(--warm-orange);
+	line-height: 1;
+}
+
+.date-month {
+	font-weight: 600;
+	color: var(--teal-darker);
+	text-transform: capitalize;
+}
+
+.date-year {
+	font-size: 0.9em;
+	font-weight: 500;
+	color: var(--warm-orange);
+	opacity: 0.85;
 }
 
 .post-header .post-metadata {

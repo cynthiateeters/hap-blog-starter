@@ -11,6 +11,16 @@ export default function(eleventyConfig) {
 		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat('yyyy-LL-dd');
 	});
 
+	eleventyConfig.addFilter("dateInParts", (dateObj, zone) => {
+		// Returns date parts for styled date display
+		const dt = DateTime.fromJSDate(dateObj, { zone: zone || "utc" });
+		return {
+			day: dt.toFormat('dd'),
+			month: dt.toFormat('LLLL'),
+			year: dt.toFormat('yyyy')
+		};
+	});
+
 	// Get the first `n` elements of a collection.
 	eleventyConfig.addFilter("head", (array, n) => {
 		if(!Array.isArray(array) || array.length === 0) {
