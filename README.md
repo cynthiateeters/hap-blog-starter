@@ -41,3 +41,7 @@ Recommended: Netlify or Vercel
 HAP™ Educational Content © 2025 Cynthia Teeters. All rights reserved.
 
 HyBit A. ProtoBot™ (HAP™) character and the apprentice learning methodology are proprietary educational innovations.
+
+### Attribution
+
+This Eleventy site was originally copied from [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog) by Zach Leatherman ([@zachleat](https://github.com/zachleat)): "A starter repository showing how to build a blog with the Eleventy site generator (using the v3.0 release)."
