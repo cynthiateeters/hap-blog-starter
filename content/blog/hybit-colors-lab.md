@@ -67,7 +67,7 @@ She also taught me about WCAG contrast ratios. I learned that you need at least 
 
 ## What you'll learn
 
-{% hapPose "lectures", "HAP explaining color concepts", 360 %}
+{% hapPose "has-tools", "HAP ready with color tools and techniques", 360 %}
 
 In this learning lab, you'll discover:
 

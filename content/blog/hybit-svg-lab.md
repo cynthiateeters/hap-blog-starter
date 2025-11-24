@@ -55,6 +55,7 @@ I stared at my screen for THREE HOURS trying to figure out where to even start. 
 Prof. Teeters looked at my mess and started laughing (kindly). "HAP, you're trying to style organized code. First, you need to ORGANIZE the code. Group related paths together. Give them semantic names that describe their purpose, not their appearance."
 
 That became Station 3 — Groups & Semantic Organization. I learned to:
+
 - Transform 200+ chaotic paths into just 7 logical groups
 - Use semantic names like `.bulb-glow` instead of `.light-yellow`
 - Extract repeated colors into one definition instead of 40+
@@ -62,15 +63,16 @@ That became Station 3 — Groups & Semantic Organization. I learned to:
 
 My 200-path nightmare became a clean, organized system with clear visual structure. I learned that good organization isn't just about making code pretty — it's the foundation that makes theming, gradients, and maintenance actually possible.
 
-{% hapPose "brain-explodes", "HAP's mind-blowing SVG organization realization", 360 %}
-
 ## What Prof. Teeters taught me
+
+{% hapPose "tools-wave", "HAP ready with purposeful animation skills", 300 %}
 
 The biggest lesson: **SVG is code, not just an image file.**
 
 When I was exporting PNGs, I thought of graphics as "assets" — you make them in a graphics program, export them, and drop them in your HTML. Done. You never look at them again.
 
 But SVG is *actual code* you can read, edit, and maintain. You can:
+
 - Open it in a text editor and understand what you're looking at
 - Organize paths into logical groups with semantic names
 - Style it with CSS custom properties for instant theme switching
@@ -99,7 +101,7 @@ The whole lab takes about 2-3 hours if you go through all six stations. But hone
 
 {% hapPose "celebrating", "HAP celebrating organized SVG victory", 300 %}
 
-## Try it out!
+## Try it out
 
 Ready to learn SVG the way I did — through real mistakes, actual code disasters, and "aha!" moments with my 200-path Lightbulb?
 

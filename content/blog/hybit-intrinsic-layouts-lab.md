@@ -78,11 +78,9 @@ I panicked and tried to fix it with media queries:
 
 **TWENTY LINES** of media queries just to handle different screen sizes! And it STILL looked weird at in-between sizes.
 
-{% hapPose "confused", "HAP lost in media query maze", 360 %}
-
 ## What Prof. Teeters taught me
 
-{% hapPose "brain-explodes", "HAP's mind blown by intrinsic grid", 360 %}
+{% hapPose "confused", "HAP lost in media query maze", 360 %}
 
 The biggest lesson: **Stop telling browsers HOW MANY columns. Give them RULES for sizing and let them calculate how many fit!**
 
@@ -99,6 +97,7 @@ Prof. Teeters deleted my 20 lines of media queries and replaced them with ONE li
 I stared at it. "Wait... I don't say '3 columns'? I say 'as many as fit with 16rem minimum'?!"
 
 She explained: "Exactly! The browser calculates:
+
 - **Mobile (375px)**: 1 column fits
 - **Tablet (768px)**: 2 columns fit
 - **Desktop (1440px)**: 5 columns fit
@@ -116,11 +115,9 @@ Intrinsic approach: "Be at least 16rem, grow up to 60rem based on available spac
 
 Instead of fighting unpredictability with media queries, I learned to design FOR unpredictability with intrinsic patterns. Modern CSS features like `clamp()`, `min()`, `max()`, CSS Grid with `auto-fit`, and container queries are all built for this philosophy.
 
-{% hapPose "page-swirl", "HAP working with layout systems", 360 %}
-
 ## What you'll learn
 
-{% hapPose "lectures", "HAP explaining intrinsic design concepts", 360 %}
+{% hapPose "page-swirl", "HAP working with layout systems", 360 %}
 
 In this learning lab, you'll discover:
 
@@ -133,7 +130,7 @@ In this learning lab, you'll discover:
 
 Each station has interactive demos with viewport sliders so you can see exactly how intrinsic layouts adapt. Station 4 lets you compare a fixed "3-column" grid (breaks on mobile!) with an intrinsic `auto-fit` grid (works everywhere!).
 
-## Try it out!
+## Try it out
 
 {% hapPose "celebrating", "HAP celebrating one line replacing twenty", 300 %}
 

@@ -143,7 +143,7 @@ She taught me that animation timing isn't about what looks coolest to me as the 
 
 ## What you'll learn
 
-{% hapPose "lectures", "HAP explaining animation principles", 360 %}
+{% hapPose "has-tools", "HAP ready with animation tools and principles", 360 %}
 
 In this learning lab, you'll discover:
 

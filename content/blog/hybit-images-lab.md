@@ -54,9 +54,7 @@ I was stunned. That's when I realized: loading strategies aren't just technical 
 
 ## What Prof. Teeters taught me
 
-{% hapPose "scientist", "HAP testing image formats and file sizes", 360 %}
-
-{% hapPose "brain-explodes", "HAP's mind blown by image optimization", 360 %}
+{% hapPose "chef", "HAP preparing optimized images like a master chef", 360 %}
 
 The biggest lesson: **The format and loading strategy you choose for images massively affects performance.**
 
@@ -90,7 +88,7 @@ In this learning lab, you'll discover:
 
 Each station has side-by-side comparisons, real file sizes, and copy-paste ready code. Station 4 shows the exact same photo in JPEG (18KB), WebP (14KB), and AVIF (9KB) so you can see the difference yourself!
 
-## Try it out!
+## Try it out
 
 {% hapPose "thumbs-up", "HAP approving fast load times", 300 %}
 

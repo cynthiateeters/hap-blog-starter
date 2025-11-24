@@ -68,13 +68,11 @@ She opened a new file and wrote THIS:
 
 My 12 files totaled over 800KB. The single variable font file? **180KB.** I was downloading 4.5 times more data for LESS flexibility!
 
-{% hapPose "juggles", "HAP juggling 12 font files", 360 %}
-
 I thought she was joking. I actually said, "That can't be real." But it is. Variable fonts are REAL, and they're the future.
 
 ## What Prof. Teeters taught me
 
-{% hapPose "brain-explodes", "HAP's mind blown by variable fonts", 360 %}
+{% hapPose "juggles", "HAP juggling 12 font files", 360 %}
 
 The biggest lesson: **Modern typography is about systems, not individual choices.**
 
@@ -111,7 +109,7 @@ In this learning lab, you'll discover:
 
 Each station has interactive playgrounds where you can adjust sliders, test contrast ratios, and generate type scales with custom ratios. I spent HOURS playing with the variable font playground!
 
-## Try it out!
+## Try it out
 
 {% hapPose "celebrating", "HAP celebrating one file replacing twelve", 300 %}
 
