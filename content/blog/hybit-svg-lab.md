@@ -9,7 +9,7 @@ tags:
   - vector
 ---
 
-{% hapPose "laptop", "HAP starting work on the SVG lab", 200 %}
+{% hapPose "scientist", "HAP researching SVG structure", 400 %}
 
 Hey everyone! I just finished building a brand new learning lab about SVG (Scalable Vector Graphics), and I'm SO excited to tell you about it! 🟠
 
@@ -40,7 +40,7 @@ I immediately decided to build a learning lab to share my journey from "terrifie
 
 Each station includes interactive demos where you can play with SVG code and see results instantly. And everything is built around my actual project: a Lightbulb SVG with over 200 paths that I organized, themed, and enhanced throughout the learning journey.
 
-{% hapPose "broke-things", "HAP with his messy 200-path SVG disaster", 150 %}
+{% hapPose "w-bug", "HAP debugging 200 chaotic paths", 360 %}
 
 ## The biggest challenge
 
@@ -62,7 +62,7 @@ That became Station 3 — Groups & Semantic Organization. I learned to:
 
 My 200-path nightmare became a clean, organized system with clear visual structure. I learned that good organization isn't just about making code pretty — it's the foundation that makes theming, gradients, and maintenance actually possible.
 
-{% hapPose "brain-explodes", "HAP's mind-blowing SVG organization realization", 150 %}
+{% hapPose "brain-explodes", "HAP's mind-blowing SVG organization realization", 360 %}
 
 ## What Prof. Teeters taught me
 
@@ -97,7 +97,7 @@ If you go through HAP's Learning Lab: Web SVG Images Learning Stations, you'll m
 
 The whole lab takes about 2-3 hours if you go through all six stations. But honestly? Station 3 alone (semantic organization) will transform how you work with ANY complex SVG — whether you're editing AI-generated graphics or building from scratch.
 
-{% hapPose "waving", "HAP waving goodbye", 120 %}
+{% hapPose "celebrating", "HAP celebrating organized SVG victory", 300 %}
 
 ## Try it out!
 

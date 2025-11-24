@@ -9,7 +9,7 @@ tags:
   - variable-fonts
 ---
 
-{% hapPose "laptop", "HAP diving into typography", 200 %}
+{% hapPose "letters", "HAP exploring typography", 400 %}
 
 Hey everyone! I just finished building my typography learning lab, and WOW, did I learn some things that completely changed how I think about fonts on the web!
 
@@ -30,7 +30,7 @@ Each station has interactive demos where I could experiment with type scales, va
 
 ## The biggest challenge (my 12-font disaster)
 
-{% hapPose "broke-things", "HAP realizing he downloaded way too many fonts", 180 %}
+{% hapPose "broke-things", "HAP realizing he downloaded way too many fonts", 360 %}
 
 Oh boy, this one still makes me cringe.
 
@@ -68,11 +68,13 @@ She opened a new file and wrote THIS:
 
 My 12 files totaled over 800KB. The single variable font file? **180KB.** I was downloading 4.5 times more data for LESS flexibility!
 
+{% hapPose "juggles", "HAP juggling 12 font files", 360 %}
+
 I thought she was joking. I actually said, "That can't be real." But it is. Variable fonts are REAL, and they're the future.
 
 ## What Prof. Teeters taught me
 
-{% hapPose "brain-explodes", "HAP's mind blown by variable fonts", 180 %}
+{% hapPose "brain-explodes", "HAP's mind blown by variable fonts", 360 %}
 
 The biggest lesson: **Modern typography is about systems, not individual choices.**
 
@@ -96,7 +98,7 @@ And the Recursive variable font absolutely blew my circuits—it has a **CASL ax
 
 ## What you'll learn
 
-{% hapPose "lectures", "HAP explaining typography concepts", 160 %}
+{% hapPose "lectures", "HAP explaining typography concepts", 360 %}
 
 In this learning lab, you'll discover:
 
@@ -111,7 +113,7 @@ Each station has interactive playgrounds where you can adjust sliders, test cont
 
 ## Try it out!
 
-{% hapPose "waving", "HAP waving with his new typography knowledge", 180 %}
+{% hapPose "celebrating", "HAP celebrating one file replacing twelve", 300 %}
 
 I learned SO much building this lab! Typography went from "download a font and use it" to understanding systematic design, performance optimization, and accessibility. Variable fonts alone changed everything for me.
 

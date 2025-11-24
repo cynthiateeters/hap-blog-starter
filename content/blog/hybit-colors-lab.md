@@ -9,7 +9,7 @@ tags:
   - hsl
 ---
 
-{% hapPose "laptop", "HAP exploring the colorful world of CSS", 200 %}
+{% hapPose "learner", "HAP studying color theory", 400 %}
 
 Hey everyone! I just finished building my second learning lab, and this one is all about **web colors**! I thought I knew colors pretty well—I mean, how hard can `#FF5733` be, right? WRONG. So, so wrong.
 
@@ -30,6 +30,8 @@ Each station has hands-on exercises where I could experiment with color formats,
 
 ## The biggest challenge (my hex code disaster)
 
+{% hapPose "confused", "HAP lost in hex code spreadsheets", 360 %}
+
 Oh boy, do I have a disaster story for you.
 
 I was trying to create a "warm orange" color palette for my design system. I started with my base orange: `#E8A557`. Then I needed a darker version for hover states and a lighter version for backgrounds.
@@ -48,7 +50,7 @@ My two-hour hex code nightmare became a THREE-MINUTE HSL solution. I felt so sil
 
 ## What Prof. Teeters taught me
 
-{% hapPose "brain-explodes", "HAP's mind exploding from the HSL revelation", 180 %}
+{% hapPose "brain-explodes", "HAP's mind exploding from the HSL revelation", 360 %}
 
 The biggest lesson: **The format you choose for colors affects how easy it is to CREATE and MODIFY a design system.**
 
@@ -65,7 +67,7 @@ She also taught me about WCAG contrast ratios. I learned that you need at least 
 
 ## What you'll learn
 
-{% hapPose "lectures", "HAP explaining color concepts", 160 %}
+{% hapPose "lectures", "HAP explaining color concepts", 360 %}
 
 In this learning lab, you'll discover:
 
@@ -80,7 +82,7 @@ Each station has interactive exercises where you can experiment with different c
 
 ## Try it out!
 
-{% hapPose "waving", "HAP waving goodbye with his new color knowledge", 180 %}
+{% hapPose "thumbs-up", "HAP approving accessible color systems", 300 %}
 
 I learned SO much building this lab, and I hope you'll find it helpful too! Whether you're just starting with web design or you've been using hex codes forever (like me), there's something here for you.
 

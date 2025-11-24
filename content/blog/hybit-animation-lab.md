@@ -9,7 +9,7 @@ tags:
   - transitions
 ---
 
-{% hapPose "laptop", "HAP learning about CSS animations", 200 %}
+{% hapPose "laptop", "HAP learning about CSS animations", 400 %}
 
 Hey everyone! I just finished building my CSS animations learning lab, and oh boy, did I make some SPECTACULAR mistakes along the way! When Prof. Teeters said my 2-second button transition looked like "paint drying," I knew I had a lot to learn about animation timing.
 
@@ -30,7 +30,7 @@ Each station has interactive demos where you can adjust timing values and see ex
 
 ## The biggest challenge (my 2-second paint-drying button)
 
-{% hapPose "broke-things", "HAP with his embarrassingly slow animation", 180 %}
+{% hapPose "broke-things", "HAP with his embarrassingly slow animation", 360 %}
 
 This one still makes me cringe.
 
@@ -61,7 +61,7 @@ That's when she taught me the golden rule: **Fast beats slow every single time f
 
 ## But wait, there's more disasters!
 
-{% hapPose "confused", "HAP confused by all his animation mistakes", 180 %}
+{% hapPose "confused", "HAP confused by all his animation mistakes", 360 %}
 
 The 2-second button wasn't my only mistake. Oh no. I had a whole collection of animation disasters:
 
@@ -71,9 +71,11 @@ The 2-second button wasn't my only mistake. Oh no. I had a whole collection of a
 
 **The earthquake shake**: For form errors, I created a shake animation that moved the input field **50 pixels** left and right. Prof. Teeters pulled back from her monitor and said, **"I thought my screen broke! That's not a shake, that's an earthquake!"** She changed it to **5 pixels** and it was perfect—noticeable but not alarming.
 
+{% hapPose "juggles", "HAP juggling timing, easing, and accessibility", 360 %}
+
 ## What Prof. Teeters taught me
 
-{% hapPose "brain-explodes", "HAP's mind blown by proper animation timing", 180 %}
+{% hapPose "brain-explodes", "HAP's mind blown by proper animation timing", 360 %}
 
 The biggest lesson: **Animation isn't about showing off what CSS can do. It's about making interfaces feel responsive and natural.**
 
@@ -106,7 +108,7 @@ Unlike `position` or `margin`, transforms move elements **visually without affec
 
 ## What you'll learn
 
-{% hapPose "lectures", "HAP explaining animation principles", 160 %}
+{% hapPose "lectures", "HAP explaining animation principles", 360 %}
 
 In this learning lab, you'll discover:
 
@@ -121,7 +123,7 @@ Each station has interactive comparisons showing the same animation at different
 
 ## Try it out!
 
-{% hapPose "waving", "HAP waving with his new animation knowledge", 180 %}
+{% hapPose "tools-wave", "HAP ready with animation skills", 300 %}
 
 I learned SO much building this lab! Animations went from "make everything move dramatically" to "subtle, fast, and accessible." The moment Prof. Teeters called my 2-second transition "paint drying" changed how I think about animation timing forever.
 

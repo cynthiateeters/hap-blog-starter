@@ -9,7 +9,7 @@ tags:
   - responsive-images
 ---
 
-{% hapPose "laptop", "HAP exploring web image optimization", 200 %}
+{% hapPose "sconcerned-laptop", "HAP worried about 8-second load time", 400 %}
 
 Hey everyone! I just finished building my web images learning lab, and I discovered something that absolutely SHOCKED me: the difference between a fast website and a slow website can be **one single attribute on an image tag**. Let me tell you about it!
 
@@ -30,7 +30,7 @@ Each station has real examples with actual file sizes and performance metrics, s
 
 ## The biggest challenge (my 8-second disaster)
 
-{% hapPose "broke-things", "HAP realizing his website is way too slow", 180 %}
+{% hapPose "broke-things", "HAP realizing his website is way too slow", 360 %}
 
 Oh boy, this one really humbled me.
 
@@ -54,7 +54,9 @@ I was stunned. That's when I realized: loading strategies aren't just technical 
 
 ## What Prof. Teeters taught me
 
-{% hapPose "brain-explodes", "HAP's mind blown by image optimization", 180 %}
+{% hapPose "scientist", "HAP testing image formats and file sizes", 360 %}
+
+{% hapPose "brain-explodes", "HAP's mind blown by image optimization", 360 %}
 
 The biggest lesson: **The format and loading strategy you choose for images massively affects performance.**
 
@@ -75,7 +77,7 @@ Now I use `srcset` to provide multiple image sizes (300w, 600w, 1200w) and let t
 
 ## What you'll learn
 
-{% hapPose "lectures", "HAP explaining image optimization", 160 %}
+{% hapPose "lectures", "HAP explaining image optimization", 360 %}
 
 In this learning lab, you'll discover:
 
@@ -90,7 +92,7 @@ Each station has side-by-side comparisons, real file sizes, and copy-paste ready
 
 ## Try it out!
 
-{% hapPose "waving", "HAP waving with his new image optimization knowledge", 180 %}
+{% hapPose "thumbs-up", "HAP approving fast load times", 300 %}
 
 I learned SO much building this lab! Images went from "just put a photo on the page" to understanding responsive delivery, modern formats, lazy loading, and performance optimization. The 8-second vs 1.6-second comparison alone changed how I think about web development.
 

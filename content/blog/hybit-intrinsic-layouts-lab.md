@@ -9,7 +9,7 @@ tags:
   - intrinsic-design
 ---
 
-{% hapPose "laptop", "HAP learning about intrinsic CSS layouts", 200 %}
+{% hapPose "laptop", "HAP learning about intrinsic CSS layouts", 400 %}
 
 Hey everyone! I just finished building my intrinsic layouts learning lab, and WOW, did I have some humbling moments! I thought I knew CSS Grid. Turns out, I was still thinking in the "old way" even while using modern syntax.
 
@@ -30,7 +30,7 @@ Each station has interactive demos where you can drag viewport sliders and watch
 
 ## The biggest challenge (my 3-column disaster)
 
-{% hapPose "broke-things", "HAP realizing his grid is completely broken", 180 %}
+{% hapPose "broke-things", "HAP realizing his grid is completely broken", 360 %}
 
 Oh boy, this one still makes me cringe.
 
@@ -78,9 +78,11 @@ I panicked and tried to fix it with media queries:
 
 **TWENTY LINES** of media queries just to handle different screen sizes! And it STILL looked weird at in-between sizes.
 
+{% hapPose "confused", "HAP lost in media query maze", 360 %}
+
 ## What Prof. Teeters taught me
 
-{% hapPose "brain-explodes", "HAP's mind blown by intrinsic grid", 180 %}
+{% hapPose "brain-explodes", "HAP's mind blown by intrinsic grid", 360 %}
 
 The biggest lesson: **Stop telling browsers HOW MANY columns. Give them RULES for sizing and let them calculate how many fit!**
 
@@ -114,9 +116,11 @@ Intrinsic approach: "Be at least 16rem, grow up to 60rem based on available spac
 
 Instead of fighting unpredictability with media queries, I learned to design FOR unpredictability with intrinsic patterns. Modern CSS features like `clamp()`, `min()`, `max()`, CSS Grid with `auto-fit`, and container queries are all built for this philosophy.
 
+{% hapPose "page-swirl", "HAP working with layout systems", 360 %}
+
 ## What you'll learn
 
-{% hapPose "lectures", "HAP explaining intrinsic design concepts", 160 %}
+{% hapPose "lectures", "HAP explaining intrinsic design concepts", 360 %}
 
 In this learning lab, you'll discover:
 
@@ -131,7 +135,7 @@ Each station has interactive demos with viewport sliders so you can see exactly 
 
 ## Try it out!
 
-{% hapPose "waving", "HAP waving with his new intrinsic design knowledge", 180 %}
+{% hapPose "celebrating", "HAP celebrating one line replacing twenty", 300 %}
 
 I learned SO much building this lab! CSS went from "set exact pixel values" to "define flexible boundaries and trust the browser." The moment I stopped forcing exact column counts and started providing sizing rules was a total paradigm shift.
 
