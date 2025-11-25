@@ -380,7 +380,7 @@ Thanks for reading! 🟠
 **Solutions**:
 
 1. Check file extension is `.md` or `.njk` (not `.txt`)
-2. Verify frontmatter has correct template engine
+2. Verify front matter has correct template engine
 3. Check Nunjucks syntax (no spaces inside `{% %}`)
 
 ### Unknown pose error
@@ -477,7 +477,7 @@ Thanks for reading! 🟠
 
 ### Variables in shortcodes
 
-**Use frontmatter variables**:
+**Use front matter variables**:
 
 ```markdown
 ---
