@@ -23,6 +23,7 @@ export default {
     'scientist': { filename: 'hap-scientist_safwtg', version: '1763230817' },
     'sconcerned-laptop': { filename: 'hap-sconcerned-laptop_frh5ua', version: '1763230464' },
     'tools-wave': { filename: 'hap-tools-wave_d31zdx', version: '1763230781' },
+    'meets-grace': { filename: 'hap-meets-grace_v2yifo', version: '1764180952' },
     'has-tools': { filename: 'hap-has-tools_kgoeys', version: '1763230490' },
     'w-bug': { filename: 'hap-w-bug_fztbl6', version: '1763230718' },
     'juggles': { filename: 'hap-juggles_v2zxeq', version: '1763230577' },
