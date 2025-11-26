@@ -74,7 +74,7 @@ The `hapPose` shortcode generates optimized `<img>` tags for HAP images hosted o
 
 ### Examples
 
-**Basic usage** (150px default):
+**Basic usage** (200px default):
 
 ```markdown
 {% hapPose "laptop", "HAP studying on his laptop" %}
@@ -282,7 +282,7 @@ The shortcode generates these HTML attributes:
 ### Recommended widths
 
 - **Hero images**: 200px (top of page, high visibility)
-- **Section images**: 150px (standard for most content)
+- **Section images**: 200px (standard for most content)
 - **Inline images**: 120px (embedded in paragraphs)
 - **Footer images**: 80-100px (small, unobtrusive)
 

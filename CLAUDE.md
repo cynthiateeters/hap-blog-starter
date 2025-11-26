@@ -143,7 +143,7 @@ npx @11ty/eleventy --serve --quiet
 ```css
 /* ✅ CORRECT */
 :root {
-  --warm-orange: hsl(32, 76%, 63%);
+  --warm-orange: hsl(32, 76%, 37%);
   --peach-background: hsl(32, 41%, 90%);
   --teal-darker: hsl(168, 34%, 35%);
 }
