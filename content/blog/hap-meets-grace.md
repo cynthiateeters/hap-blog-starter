@@ -1,7 +1,7 @@
 ---
-title: "The Day I Met Grace Hopper"
+title: "The Day the 'Amazing' Grace Hopper Joined Our Lab"
 description: "I didn't know you could feel nervous and excited at the same time—until Prof. Teeters introduced me to Grace Hopper, the Precision & Protocols AI Assistant who gave me a nanosecond wire and changed how I think about learning."
-date: 2025-11-26
+date: 2025-11-28
 pinned: true
 tags:
   - mentorship
@@ -20,7 +20,7 @@ We were standing in the hallway outside the newly decommissioned Cobol Lab. The 
 
 Then I saw her.
 
-A tall, white-plated robot stepped out of the doorway, her vacuum tube glowing with a calm soft blue light. She wore vintage round glasses that caught the light just so, and moved with this graceful, steady confidence that made me stand a little straighter without thinking about it.
+A tall, white-plated robot stepped out of the doorway, her vacuum tube glowing with a calm soft blue light. She wore vintage round glasses that caught the light just so, and moved with this graceful, steady confidence that made me stand straighter without even thinking — almost like I was coming to attention.
 
 "Hello," she said. "I am Grace Hopper."
 

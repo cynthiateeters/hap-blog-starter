@@ -1,7 +1,7 @@
 ---
 title: "The Day Prof. Teeters Asked: 'Does This Animation Help Your Users?'"
 description: "My journey from making buttons bounce just because I could, to understanding that animations are communication tools—not decoration. Come see what I discovered about purposeful animation!"
-date: 2025-11-28
+date: 2025-11-12
 tags:
   - css
   - learning-lab
