@@ -1,3 +1,9 @@
+---
+title: "HAP Pose Guide"
+description: "Detailed guide on using the HAP pose shortcodes with Cloudinary."
+order: 8
+---
+
 # HAP pose shortcodes tutorial
 
 **Purpose**: Simplify embedding HAP images from Cloudinary CDN in blog posts and pages
@@ -27,9 +33,11 @@ Think of them as **functions you can call from inside your content files**.
 
 **With shortcodes** (simple and readable):
 
+{% raw %}
 ```markdown
 {% hapPose "waving", "HAP waving hello", 150 %}
 ```
+{% endraw %}
 
 Both produce the same HTML output, but the shortcode is:
 
@@ -45,7 +53,7 @@ Both produce the same HTML output, but the shortcode is:
 Eleventy processes your content files in this order:
 
 1. **Read** your Markdown/Nunjucks file
-2. **Find** any shortcodes like `{% hapPose ... %}`
+2. **Find** any shortcodes like {% raw %}`{% hapPose ... %}`{% endraw %}`
 3. **Execute** the shortcode function
 4. **Replace** the shortcode with generated HTML
 5. **Output** the final HTML file
@@ -63,7 +71,9 @@ The `hapPose` shortcode generates optimized `<img>` tags for HAP images hosted o
 ### Syntax
 
 ```markdown
+{% raw %}
 {% hapPose "pose-name", "alt text", width %}
+{% endraw %}
 ```
 
 **Parameters**:
@@ -77,19 +87,25 @@ The `hapPose` shortcode generates optimized `<img>` tags for HAP images hosted o
 **Basic usage** (200px default):
 
 ```markdown
+{% raw %}
 {% hapPose "laptop", "HAP studying on his laptop" %}
+{% endraw %}
 ```
 
 **Custom width** (200px for hero images):
 
 ```markdown
+{% raw %}
 {% hapPose "waving", "HAP waving hello", 200 %}
+{% endraw %}
 ```
 
 **Small image** (80px for footer):
 
 ```markdown
+{% raw %}
 {% hapPose "learner", "HAP with his study book", 80 %}
+{% endraw %}
 ```
 
 ---
@@ -212,7 +228,9 @@ export default async function(eleventyConfig) {
 When you write:
 
 ```markdown
+{% raw %}
 {% hapPose "waving", "HAP waving hello", 150 %}
+{% endraw %}
 ```
 
 Eleventy generates:
@@ -323,6 +341,7 @@ Use HAP poses to reinforce the emotional journey in blog posts:
 ### Example 1: About page
 
 ```markdown
+{% raw %}
 ---
 title: About
 ---
@@ -337,11 +356,13 @@ Hey there! I'm HAP — that stands for HyBit A. ProtoBot™...
 {% hapPose "learner", "HAP with his study book and tools", 150 %}
 
 Each blog post tells the story of building one learning lab...
+{% endraw %}
 ```
 
 ### Example 2: Blog post structure
 
 ```markdown
+{% raw %}
 ---
 title: "My Journey Building the SVG Learning Lab"
 ---
@@ -367,6 +388,7 @@ When Prof. Teeters explained viewBox vs width/height, my mind EXPLODED...
 {% hapPose "waving", "HAP waving goodbye", 120 %}
 
 Thanks for reading! 🟠
+{% endraw %}
 ```
 
 ---
@@ -375,13 +397,13 @@ Thanks for reading! 🟠
 
 ### Shortcode not rendering
 
-**Problem**: You see `{% hapPose ... %}` in the output instead of an image
+**Problem**: You see {% raw %}`{% hapPose ... %}`{% endraw %} in the output instead of an image
 
 **Solutions**:
 
 1. Check file extension is `.md` or `.njk` (not `.txt`)
 2. Verify front matter has correct template engine
-3. Check Nunjucks syntax (no spaces inside `{% %}`)
+3. Check Nunjucks syntax (no spaces inside {% raw %}`{% %}`{% endraw %})
 
 ### Unknown pose error
 
@@ -443,22 +465,28 @@ Thanks for reading! 🟠
 **Markdown** (`.md` files):
 
 ```markdown
+{% raw %}
 {% hapPose "laptop", "HAP at laptop", 150 %}
+{% endraw %}
 ```
 
 **Nunjucks** (`.njk` files):
 
 ```nunjucks
+{% raw %}
 {% hapPose "laptop", "HAP at laptop", 150 %}
+{% endraw %}
 ```
 
 **HTML with Nunjucks** (`.html` files):
 
 ```html
+{% raw %}
 <div class="hero">
   {% hapPose "waving", "HAP waving", 200 %}
   <h1>Welcome!</h1>
 </div>
+{% endraw %}
 ```
 
 ### Conditional shortcodes
@@ -466,6 +494,7 @@ Thanks for reading! 🟠
 **Show different pose based on condition**:
 
 ```nunjucks
+{% raw %}
 {% if section === "introduction" %}
   {% hapPose "waving", "HAP waving hello", 150 %}
 {% elif section === "problem" %}
@@ -473,6 +502,7 @@ Thanks for reading! 🟠
 {% else %}
   {% hapPose "laptop", "HAP working", 150 %}
 {% endif %}
+{% endraw %}
 ```
 
 ### Variables in shortcodes
@@ -480,12 +510,14 @@ Thanks for reading! 🟠
 **Use front matter variables**:
 
 ```markdown
+{% raw %}
 ---
 heroPose: "celebrating"
 heroAlt: "HAP celebrating lab completion"
 ---
 
 {% hapPose heroPose, heroAlt, 200 %}
+{% endraw %}
 ```
 
 ---
@@ -508,17 +540,17 @@ heroAlt: "HAP celebrating lab completion"
 **Basic syntax**:
 
 ```markdown
+{% raw %}
 {% hapPose "pose-name", "alt text", width %}
+{% endraw %}
 ```
 
 **Example**:
 
 ```markdown
+{% raw %}
 {% hapPose "waving", "HAP waving hello", 150 %}
+{% endraw %}
 ```
 
 **Result**: Optimized, accessible, performant image that loads fast and looks great!
-
----
-
-**Last updated**: November 23, 2025

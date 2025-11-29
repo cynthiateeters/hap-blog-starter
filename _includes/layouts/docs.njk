@@ -1,0 +1,74 @@
+---
+layout: layouts/base.njk
+---
+{# Include Prism theme for code examples #}
+<style>{% include "css/prism-hap-theme.css" %}</style>
+<style>{% include "css/prism-diff.css" %}</style>
+<style>{% include "css/code-copy.css" %}</style>
+<style>{% include "css/docs-callout.css" %}</style>
+
+{# Copy button JavaScript - adds copy functionality to all code blocks #}
+{% js %}
+(function() {
+  document.querySelectorAll('pre').forEach(function(pre) {
+    // Only add to pre elements containing code
+    if (!pre.querySelector('code')) return;
+
+    // Create copy button
+    var btn = document.createElement('button');
+    btn.className = 'code-copy-btn';
+    btn.textContent = 'Copy';
+    btn.setAttribute('aria-label', 'Copy code to clipboard');
+    btn.setAttribute('type', 'button');
+
+    btn.addEventListener('click', function() {
+      var code = pre.querySelector('code');
+      var text = code.textContent;
+
+      navigator.clipboard.writeText(text).then(function() {
+        btn.textContent = 'Copied!';
+        btn.setAttribute('data-state', 'success');
+        setTimeout(function() {
+          btn.textContent = 'Copy';
+          btn.removeAttribute('data-state');
+        }, 2000);
+      }).catch(function() {
+        btn.textContent = 'Error';
+        btn.setAttribute('data-state', 'error');
+        setTimeout(function() {
+          btn.textContent = 'Copy';
+          btn.removeAttribute('data-state');
+        }, 2000);
+      });
+    });
+
+    pre.appendChild(btn);
+  });
+})();
+{% endjs %}
+
+<article class="docs-layout">
+	<header class="docs-header">
+		<h1>{{ title }}</h1>
+		{% if description %}
+		<p class="docs-description">{{ description }}</p>
+		{% endif %}
+	</header>
+
+	<section class="docs-content">
+		{{ content | safe }}
+	</section>
+</article>
+
+{%- if collections.docs %}
+{%- set previousDoc = collections.docs | getPreviousCollectionItem %}
+{%- set nextDoc = collections.docs | getNextCollectionItem %}
+{%- if nextDoc or previousDoc %}
+<nav class="docs-nav" aria-label="Documentation navigation">
+	<ul class="links-nextprev">
+		{%- if previousDoc %}<li class="links-nextprev-prev">← Previous<br><a href="{{ previousDoc.url }}">{{ previousDoc.data.title }}</a></li>{% endif %}
+		{%- if nextDoc %}<li class="links-nextprev-next">Next →<br><a href="{{ nextDoc.url }}">{{ nextDoc.data.title }}</a></li>{% endif %}
+	</ul>
+</nav>
+{%- endif %}
+{%- endif %}

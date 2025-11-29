@@ -1,0 +1,63 @@
+/**
+ * Code Copy Button Styles
+ * Adds a "Copy" button to code blocks in documentation
+ * Matches HAP design system colors
+ */
+
+/* Container must be relative for absolute button positioning */
+pre {
+  position: relative;
+}
+
+/* Copy button - positioned in top-right corner */
+.code-copy-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background: hsl(168, 28%, 34%);
+  color: hsl(32, 100%, 98%);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--font-ui, system-ui, sans-serif);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  opacity: 0;
+  transition: opacity 0.2s ease, background 0.2s ease;
+  z-index: 10;
+}
+
+/* Show button on hover/focus of code block */
+pre:hover .code-copy-btn,
+pre:focus-within .code-copy-btn,
+.code-copy-btn:focus {
+  opacity: 1;
+}
+
+/* Hover state */
+.code-copy-btn:hover {
+  background: hsl(168, 34%, 28%);
+}
+
+/* Focus state for accessibility */
+.code-copy-btn:focus {
+  outline: 2px solid hsl(32, 76%, 63%);
+  outline-offset: 2px;
+}
+
+/* Success state - shown after successful copy */
+.code-copy-btn[data-state="success"] {
+  background: hsl(120, 85%, 28%);
+  color: hsl(32, 100%, 96%);
+  opacity: 1;
+}
+
+/* Error state */
+.code-copy-btn[data-state="error"] {
+  background: hsl(0, 70%, 45%);
+  color: hsl(32, 100%, 98%);
+  opacity: 1;
+}
