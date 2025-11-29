@@ -4,6 +4,16 @@ description: "Understanding Nunjucks templating and layout inheritance in this E
 order: 3
 ---
 
+<div class="docs-callout docs-callout--official">
+  <p class="docs-callout__title">📚 Official Eleventy docs</p>
+  <div class="docs-callout__content">
+    <ul>
+      <li><a href="https://www.11ty.dev/docs/layouts/" target="_blank" rel="noopener">Layouts</a> — Template inheritance and chaining</li>
+      <li><a href="https://www.11ty.dev/docs/languages/nunjucks/" target="_blank" rel="noopener">Nunjucks</a> — Template language syntax</li>
+    </ul>
+  </div>
+</div>
+
 ## What is Nunjucks?
 
 Nunjucks is a templating language for JavaScript. Eleventy supports multiple template languages, but this site uses Nunjucks (`.njk` files) for layouts and some content pages.

@@ -4,6 +4,16 @@ description: "How files and folders are organized in this Eleventy site."
 order: 2
 ---
 
+<div class="docs-callout docs-callout--official">
+  <p class="docs-callout__title">📚 Official Eleventy docs</p>
+  <div class="docs-callout__content">
+    <ul>
+      <li><a href="https://www.11ty.dev/docs/config/" target="_blank" rel="noopener">Configuration Options</a> — Input/output directories</li>
+      <li><a href="https://www.11ty.dev/docs/copy/" target="_blank" rel="noopener">Passthrough File Copy</a> — Static assets</li>
+    </ul>
+  </div>
+</div>
+
 ## Overview
 
 This site follows Eleventy conventions with some customization. The key insight: Eleventy is flexible about where you put things, but this site uses a clean separation between content, templates, data, and configuration.

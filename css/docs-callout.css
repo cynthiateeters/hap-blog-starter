@@ -1,0 +1,73 @@
+/**
+ * Documentation Callout Boxes
+ * Used for "Official Docs" links and other callouts in documentation
+ */
+
+/* Base callout style */
+.docs-callout {
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 6px;
+  border-left: 4px solid;
+}
+
+/* Official docs callout - teal accent */
+.docs-callout--official {
+  background: hsl(168, 28%, 95%);
+  border-color: hsl(168, 34%, 35%);
+}
+
+.docs-callout--official a {
+  color: hsl(168, 34%, 30%);
+  font-weight: 600;
+}
+
+.docs-callout--official a:hover {
+  color: hsl(168, 34%, 25%);
+}
+
+/* Callout heading */
+.docs-callout__title {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: hsl(168, 34%, 30%);
+}
+
+/* Callout content */
+.docs-callout__content {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.docs-callout__content ul {
+  margin: 0.5rem 0 0 0;
+  padding-left: 1.25rem;
+}
+
+.docs-callout__content li {
+  margin-bottom: 0.25rem;
+}
+
+/* Warning callout - warm orange */
+.docs-callout--warning {
+  background: hsl(32, 76%, 95%);
+  border-color: hsl(32, 76%, 50%);
+}
+
+.docs-callout--warning .docs-callout__title {
+  color: hsl(28, 45%, 25%);
+}
+
+/* Tip callout - subtle */
+.docs-callout--tip {
+  background: hsl(32, 41%, 96%);
+  border-color: hsl(32, 30%, 70%);
+}
+
+.docs-callout--tip .docs-callout__title {
+  color: hsl(28, 30%, 35%);
+}

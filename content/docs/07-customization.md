@@ -4,6 +4,16 @@ description: "Step-by-step guides for extending and customizing this Eleventy si
 order: 7
 ---
 
+<div class="docs-callout docs-callout--official">
+  <p class="docs-callout__title">📚 Official Eleventy docs</p>
+  <div class="docs-callout__content">
+    <ul>
+      <li><a href="https://www.11ty.dev/docs/config/" target="_blank" rel="noopener">Configuration</a> — All configuration options</li>
+      <li><a href="https://www.11ty.dev/docs/plugins/" target="_blank" rel="noopener">Plugins</a> — Extend Eleventy's functionality</li>
+    </ul>
+  </div>
+</div>
+
 ## Adding a new page
 
 ### Simple page

@@ -4,6 +4,16 @@ description: "How content is organized into collections and how tag pages are ge
 order: 5
 ---
 
+<div class="docs-callout docs-callout--official">
+  <p class="docs-callout__title">📚 Official Eleventy docs</p>
+  <div class="docs-callout__content">
+    <ul>
+      <li><a href="https://www.11ty.dev/docs/collections/" target="_blank" rel="noopener">Collections</a> — Grouping content together</li>
+      <li><a href="https://www.11ty.dev/docs/pagination/" target="_blank" rel="noopener">Pagination</a> — Creating pages from data</li>
+    </ul>
+  </div>
+</div>
+
 ## What are collections?
 
 Collections are groups of content that Eleventy creates automatically. They let you query and iterate over related content—like "all blog posts" or "all pages tagged with svg".

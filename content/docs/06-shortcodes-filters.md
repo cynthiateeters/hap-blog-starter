@@ -4,6 +4,16 @@ description: "Custom shortcodes and filters that extend Eleventy's templating ca
 order: 6
 ---
 
+<div class="docs-callout docs-callout--official">
+  <p class="docs-callout__title">📚 Official Eleventy docs</p>
+  <div class="docs-callout__content">
+    <ul>
+      <li><a href="https://www.11ty.dev/docs/shortcodes/" target="_blank" rel="noopener">Shortcodes</a> — Reusable template functions</li>
+      <li><a href="https://www.11ty.dev/docs/filters/" target="_blank" rel="noopener">Filters</a> — Transform data in templates</li>
+    </ul>
+  </div>
+</div>
+
 ## What are shortcodes?
 
 Shortcodes are reusable template functions. They take arguments and return content—usually HTML.
@@ -66,6 +76,8 @@ Defined in `_data/cloudinary.js`:
 | `thumbs-up` | HAP giving approval |
 | `lectures` | HAP teaching |
 | `scientist` | HAP experimenting |
+
+See the [HAP Pose Guide](/docs/08-hap-pose-guide/) for a complete tutorial and list of all available poses.
 
 ## The `currentBuildDate` shortcode
 

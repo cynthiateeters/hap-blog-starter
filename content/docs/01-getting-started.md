@@ -4,6 +4,13 @@ description: "Clone, install, and run this Eleventy site locally."
 order: 1
 ---
 
+<div class="docs-callout docs-callout--official">
+  <p class="docs-callout__title">📚 Official Eleventy docs</p>
+  <p class="docs-callout__content">
+    <a href="https://www.11ty.dev/docs/" target="_blank" rel="noopener">Getting Started with Eleventy</a> — Official installation and setup guide
+  </p>
+</div>
+
 ## Prerequisites
 
 Before you begin, ensure you have:

@@ -4,6 +4,17 @@ description: "Understanding how data flows through Eleventy from global files to
 order: 4
 ---
 
+<div class="docs-callout docs-callout--official">
+  <p class="docs-callout__title">📚 Official Eleventy docs</p>
+  <div class="docs-callout__content">
+    <ul>
+      <li><a href="https://www.11ty.dev/docs/data-cascade/" target="_blank" rel="noopener">Data Cascade</a> — How data merges from multiple sources</li>
+      <li><a href="https://www.11ty.dev/docs/data-global/" target="_blank" rel="noopener">Global Data Files</a> — The <code>_data</code> directory</li>
+      <li><a href="https://www.11ty.dev/docs/data-frontmatter/" target="_blank" rel="noopener">Front Matter Data</a> — YAML in content files</li>
+    </ul>
+  </div>
+</div>
+
 ## What is the data cascade?
 
 The data cascade is Eleventy's system for merging data from multiple sources. Data flows from general (global) to specific (front matter), with more specific sources overriding more general ones.
