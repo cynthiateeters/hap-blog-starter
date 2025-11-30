@@ -1,5 +1,5 @@
 ---
-title: "I Just Learned About MCP Servers!"
+title: "I Just Learned About MCP (Model Context Protocol) Servers For AI Agents!"
 description: "How MCP servers changed everything!"
 date: 2025-11-29
 tags:
