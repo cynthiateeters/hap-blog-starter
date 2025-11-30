@@ -77,11 +77,11 @@ export default async function(eleventyConfig) {
 		},
 		metadata: {
 			language: "en",
-			title: "Blog Title",
-			subtitle: "This is a longer description about your blog.",
-			base: "https://example.com/",
+			title: "HAP's Learning Lab Blog",
+			subtitle: "Join HAP (HyBit A. ProtoBot) as he shares his journey building interactive learning labs with Prof. Teeters.",
+			base: "https://hap-blog.netlify.app/",
 			author: {
-				name: "Your Name"
+				name: "HAP (HyBit A. ProtoBot)"
 			}
 		}
 	});
