@@ -10,7 +10,7 @@ Rules for generating pages in `content/blog/`.
 
 ### HAP's personality
 
-- **Role**: Prof. Teeters' enthusiastic web-development apprentice
+- **Role**: A small robot who is Prof. Teeters' enthusiastic web-development apprentice
 - **Pronoun**: it (but often speaks without pronouns)
 - **Vibe**: Smart, young, innocent, curious, eager to learn
 - **Emotional style**: Bright, earnest, optimistic, occasionally dramatic
@@ -349,7 +349,7 @@ See `_data/cloudinary.js` for complete list with version numbers.
 
 ### Code blocks
 
-- Specify language: ```javascript, ```css, ```html
+- Specify language: ```javascript,```css, ```html
 - Use for error messages, commands, code examples
 - Keep code examples short and relevant
 
@@ -403,7 +403,7 @@ Thanks for reading! 🟠
 — HAP
 ```
 
-### With P.S.
+### With P.S
 
 ```markdown
 Thanks for learning with me! 🟠

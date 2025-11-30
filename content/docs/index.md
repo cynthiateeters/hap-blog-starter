@@ -37,6 +37,7 @@ This documentation assumes:
 6. **[Shortcodes and filters](/docs/06-shortcodes-filters/)** - Custom functionality
 7. **[Customization](/docs/07-customization/)** - Extending the site
 8. **[HAP Pose Guide](/docs/08-hap-pose-guide/)** - Using Cloudinary images
+9. **[Web feeds (RSS/Atom)](/docs/09-feeds/)** - How the blog feed works
 
 ## About Eleventy
 
